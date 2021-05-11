@@ -1,7 +1,29 @@
 import React from 'react'
 import { ResponsivePie } from '@nivo/pie'
 import data from './data.json'
-  
+import { ResponsiveBar } from '@nivo/bar'
+import { ResponsiveAreaBump } from '@nivo/bump'
+import { ResponsiveCirclePacking } from '@nivo/circle-packing'
+import { ResponsiveBullet } from '@nivo/bullet'
+import { ResponsiveCalendar } from '@nivo/calendar'
+import { ResponsiveChoropleth } from '@nivo/geo'
+import { ResponsiveChord } from '@nivo/chord'
+import { ResponsiveChord } from '@nivo/chord'
+import { ResponsiveHeatMap } from '@nivo/heatmap'
+import { ResponsiveLine } from '@nivo/line'
+import { ResponsiveMarimekko } from '@nivo/marimekko'
+import { ResponsiveNetwork } from '@nivo/network'
+import { ResponsiveParallelCoordinates } from '@nivo/parallel-coordinates'
+import { ResponsiveRadar } from '@nivo/radar'
+import { ResponsiveSankey } from '@nivo/sankey'
+import { ResponsiveScatterPlot } from '@nivo/scatterplot'
+import { ResponsiveStream } from '@nivo/stream'
+import { ResponsiveSunburst } from '@nivo/sunburst'
+import { ResponsiveSwarmPlot } from '@nivo/swarmplot'
+import { ResponsiveTreeMap } from '@nivo/treemap'
+import { ResponsiveVoronoi } from '@nivo/voronoi'
+import { ResponsiveWaffle } from '@nivo/waffle'
+
 console.log(data)
 
 function Chart() {
